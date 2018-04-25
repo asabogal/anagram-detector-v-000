@@ -12,7 +12,7 @@ class Anagram
       word_split = @word.split('').sort
       anagrams.detect {|w| w.sort == word_split}
 
-      # binding.pry
+      binding.pry
     end
 
 end
