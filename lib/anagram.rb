@@ -9,6 +9,8 @@ class Anagram
   end
 
     def match(anagrams)
+      word.split('').sort
+
 
     end
 
