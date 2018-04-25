@@ -10,8 +10,8 @@ class Anagram
 
     def match(anagrams)
       word_split = @word.split('').sort
-      anagrams.detect {|w| w.sort == word.split}
-      
+      anagrams.detect {|w| w.sort == word_split.split}
+
       # binding.pry
     end
 
