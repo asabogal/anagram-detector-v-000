@@ -9,8 +9,8 @@ class Anagram
   end
 
     def match(anagrams)
-      word_split = @word.split('').sort
-      anagrams.select {|w| w.split("").sort == word_split}
+
+      anagrams.select {|w| w.split("").sort == @word.split('').sort}
 
       # binding.pry
     end
